@@ -1,0 +1,14 @@
+package enviando.email;
+
+public class AppTest {	
+	
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		
+		ObjetoEnviaEmail enviaEmail = new ObjetoEnviaEmail("illaap@hotmail.com",
+															"Willames Lima",
+															"Testando e-mail com java",
+															"Esse texto é a descrição do meu e-mail");
+	}
+
+}
